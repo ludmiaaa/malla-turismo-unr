@@ -39,6 +39,7 @@ h1 {
   transition: all 0.2s ease;
   cursor: pointer;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  text-decoration: none;
 }
 
 .materia:hover {
@@ -48,6 +49,8 @@ h1 {
 .aprobada {
   border-color: #a3cfbb;
   background-color: #d8f3dc;
+  text-decoration: line-through;
+  opacity: 0.8;
 }
 
 .bloqueada {
